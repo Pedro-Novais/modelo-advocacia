@@ -1,9 +1,52 @@
 .containerImageBackground{
     width: 100%;
+    min-height: 75vh;
 }
 
 .containerImageBackground img{
     width: 100%;
     height: auto;
     opacity: .5;
+    position: absolute;
+}
+
+.containerTextBegin{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerTextBegin h2{
+    font-size: 3rem;
+}
+
+.containerTextBegin p{
+    font-size: 1.4rem;
+}
+
+.btnMarkBanner{
+    background-color: var(--header);
+    width: 60%;
+    height: 20%;
+    border-radius: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 5em;
+    display: flex;
+    justify-content: space-around;
+    transition: .2s;
+}
+
+.btnMarkBanner:hover{
+    background-color: #1a1a1a80;
+    border: solid 1px #1a1a1a99;
 }
