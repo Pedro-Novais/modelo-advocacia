@@ -1,4 +1,79 @@
 .containerServices{
-    background-color: aqua;
-    height: 80vh;
+    height: 120vh;
+    padding: 0 1em;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, var(--background), #502f10);
+}
+
+.containerServices h2{
+    font-size: 2em;
+    width: 60%;
+    text-align: center;
+}
+
+.containerCardServices{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 1em;
+}
+
+.cardsServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: var(--text-hover); */
+    background-image: linear-gradient(to bottom, #502f10, var(--background));
+    height: 90%;
+    width: 32%;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titleCard{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cardsServices span{
+    height: auto;
+    min-width: 40%;
+    text-align: center;
+    background-color: var(--text-hover);
+    border-radius: 1em;
+}
+
+.cardsServices span svg{
+    width: 6em;
+    height: 6em;
+}
+
+.contentInfosCard{
+    width: 100%;
+    height: 70%;
+}
+
+.contentInfosCard ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contentInfosCard ul li{
+    width: 100%;
 }
